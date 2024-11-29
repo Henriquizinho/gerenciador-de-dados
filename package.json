@@ -1,0 +1,23 @@
+{
+  "name": "meu_projeto",
+  "version": "1.0.0",
+  "main": "server/app.js",
+  "scripts": {
+    "dev": "nodemon ./server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adrian",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "pg": "^8.7.1",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
